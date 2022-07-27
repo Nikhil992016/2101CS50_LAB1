@@ -15,11 +15,11 @@ int Multiplication ( int a , int b )
     return a * b ;
 }
 
-// float Division ( int a , int b )
-// {
-//     float result = a * 1.0/ b ;
-//     return result ;
-// }
+float Division ( int a , int b )
+{
+    float result = a * 1.0/ b ;
+    return result ;
+}
 
 int main()
 {
@@ -52,16 +52,16 @@ int main()
         int result = Multiplication ( a , b );
         printf ("%d multiplied by %d is %d\n" ,a , b , result  );
     }
-    // else if ( n == 4 ){
-    //     printf ("Enter the numbers you want to divide\n");
-    //     int a , b ;
-    //     scanf ( "%d %d" , &a , &b );
-    //     float  result = Division ( a , b );
-    //     printf ("%d divided by %d is %f\n" ,a , b , result  );
-    // }
-    else if ( n == 5 ){
-        printf ("NO operation is performed\nThanks for using C calculator");
-        return 0 ;
+    else if ( n == 4 ){
+        printf ("Enter the numbers you want to divide\n");
+        int a , b ;
+        scanf ( "%d %d" , &a , &b );
+        float  result = Division ( a , b );
+        printf ("%d divided by %d is %f\n" ,a , b , result  );
     }
+    // else if ( n == 5 ){
+    //     printf ("NO operation is performed\nThanks for using C calculator");
+    //     return 0 ;
+    // }
     return 0;
 }
