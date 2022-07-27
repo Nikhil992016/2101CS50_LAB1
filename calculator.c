@@ -59,9 +59,9 @@ int main()
         float  result = Division ( a , b );
         printf ("%d divided by %d is %f\n" ,a , b , result  );
     }
-    // else if ( n == 5 ){
-    //     printf ("NO operation is performed\nThanks for using C calculator");
-    //     return 0 ;
-    // }
+    else if ( n == 5 ){
+        printf ("NO operation is performed\nThanks for using C calculator");
+        return 0 ;
+    }
     return 0;
 }
