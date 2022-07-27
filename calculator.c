@@ -5,10 +5,10 @@ int Addition ( int a , int b )
     return a + b ;
 }
 
-// int Subtraction ( int a , int b )
-// {
-//     return a - b ;
-// }
+int Subtraction ( int a , int b )
+{
+    return a - b ;
+}
 
 // int Multiplication ( int a , int b )
 // {
@@ -38,13 +38,13 @@ int main()
         int result = Addition ( a , b );
         printf ("Sum of %d and %d is %d\n" ,a , b , result  );
     }
-    // else if (  n == 2 ){
-    //     printf ("Enter the numbers you want to subtract\n");
-    //     int a , b ;
-    //     scanf ( "%d %d" , &a , &b );
-    //     int result  = Subtraction ( a , b );
-    //     printf ("%d minus %d is %d\n" ,a , b , result  );
-    // }
+    else if (  n == 2 ){
+        printf ("Enter the numbers you want to subtract\n");
+        int a , b ;
+        scanf ( "%d %d" , &a , &b );
+        int result  = Subtraction ( a , b );
+        printf ("%d minus %d is %d\n" ,a , b , result  );
+    }
     // else if ( n == 3 ){
     //     printf ("Enter the numbers you want to multiply\n");
     //     int a , b ;
