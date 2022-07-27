@@ -10,10 +10,10 @@ int Subtraction ( int a , int b )
     return a - b ;
 }
 
-// int Multiplication ( int a , int b )
-// {
-//     return a * b ;
-// }
+int Multiplication ( int a , int b )
+{
+    return a * b ;
+}
 
 // float Division ( int a , int b )
 // {
@@ -45,13 +45,13 @@ int main()
         int result  = Subtraction ( a , b );
         printf ("%d minus %d is %d\n" ,a , b , result  );
     }
-    // else if ( n == 3 ){
-    //     printf ("Enter the numbers you want to multiply\n");
-    //     int a , b ;
-    //     scanf ( "%d %d" , &a , &b );
-    //     int result = Multiplication ( a , b );
-    //     printf ("%d multiplied by %d is %d\n" ,a , b , result  );
-    // }
+    else if ( n == 3 ){
+        printf ("Enter the numbers you want to multiply\n");
+        int a , b ;
+        scanf ( "%d %d" , &a , &b );
+        int result = Multiplication ( a , b );
+        printf ("%d multiplied by %d is %d\n" ,a , b , result  );
+    }
     // else if ( n == 4 ){
     //     printf ("Enter the numbers you want to divide\n");
     //     int a , b ;
